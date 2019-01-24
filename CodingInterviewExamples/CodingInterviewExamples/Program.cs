@@ -16,14 +16,7 @@ namespace CodingInterviewExamples
                 new int[] { 4, 2, 4, 4 },
                 new int[] { 1, 4, 5, 2 });
             q.Run();
-            //Questions = new List<ICodingQuestion>
-            //{
-            //    new Question1(new int[]{1,4,5,2,4,2,4,4 })
-            //};
-            //Questions.ForEach(process =>
-            //{
-            //    process.Run();
-            //});
+
         }
     }
 }

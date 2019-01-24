@@ -7,17 +7,7 @@ using CodingInterviewExamples.Questions;
 
 namespace CodingTest
 {
-    /// <summary>
-    /// Summary description for UnitTest1
-    /// </summary>
-    /// 
-    //LinkedListStack list = new LinkedListStack();
-    //list.Push("pushed first");
-    //list.Push("pushed second");
-    //list.Push("pushed third");
-    //Console.WriteLine(list.DetectCycle());
-    //list.CreateCycle();
-    //Console.WriteLine(list.DetectCycle());
+
     [TestClass]
     public class Question2_Tests
     {

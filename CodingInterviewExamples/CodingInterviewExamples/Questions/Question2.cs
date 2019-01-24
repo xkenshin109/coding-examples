@@ -24,14 +24,7 @@ namespace CodingInterviewExamples.Questions
             }
         }
         public bool DetectCycle => list.DetectCycle();
-        ////Call in Program.cs to test
-        //LinkedListStack list = new LinkedListStack();
-        //list.Push("pushed first");
-        //list.Push("pushed second");
-        //list.Push("pushed third");
-        //Console.WriteLine(list.DetectCycle());
-        //list.CreateCycle();
-        //Console.WriteLine(list.DetectCycle());
+
         public void Run() {
 
             Console.WriteLine(list.DetectCycle());
