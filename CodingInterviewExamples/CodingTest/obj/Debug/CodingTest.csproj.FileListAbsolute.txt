@@ -1,0 +1,17 @@
+c:\users\jeremy\source\repos\CodingInterviewExamples\CodingTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+c:\users\jeremy\source\repos\CodingInterviewExamples\CodingTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+c:\users\jeremy\source\repos\CodingInterviewExamples\CodingTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+c:\users\jeremy\source\repos\CodingInterviewExamples\CodingTest\bin\Debug\CodingTest.dll
+c:\users\jeremy\source\repos\CodingInterviewExamples\CodingTest\bin\Debug\CodingTest.pdb
+c:\users\jeremy\source\repos\CodingInterviewExamples\CodingTest\bin\Debug\CodingInterviewExamples.exe
+c:\users\jeremy\source\repos\CodingInterviewExamples\CodingTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+c:\users\jeremy\source\repos\CodingInterviewExamples\CodingTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+c:\users\jeremy\source\repos\CodingInterviewExamples\CodingTest\bin\Debug\CodingInterviewExamples.pdb
+c:\users\jeremy\source\repos\CodingInterviewExamples\CodingTest\bin\Debug\CodingInterviewExamples.exe.config
+c:\users\jeremy\source\repos\CodingInterviewExamples\CodingTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+c:\users\jeremy\source\repos\CodingInterviewExamples\CodingTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+c:\users\jeremy\source\repos\CodingInterviewExamples\CodingTest\obj\Debug\CodingTest.csprojAssemblyReference.cache
+c:\users\jeremy\source\repos\CodingInterviewExamples\CodingTest\obj\Debug\CodingTest.csproj.CoreCompileInputs.cache
+c:\users\jeremy\source\repos\CodingInterviewExamples\CodingTest\obj\Debug\CodingTest.csproj.CopyComplete
+c:\users\jeremy\source\repos\CodingInterviewExamples\CodingTest\obj\Debug\CodingTest.dll
+c:\users\jeremy\source\repos\CodingInterviewExamples\CodingTest\obj\Debug\CodingTest.pdb

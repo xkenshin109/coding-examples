@@ -1,0 +1,7 @@
+c:\users\jeremy\source\repos\CodingInterviewExamples\CodingInterviewExamples\bin\Debug\CodingInterviewExamples.exe.config
+c:\users\jeremy\source\repos\CodingInterviewExamples\CodingInterviewExamples\bin\Debug\CodingInterviewExamples.exe
+c:\users\jeremy\source\repos\CodingInterviewExamples\CodingInterviewExamples\bin\Debug\CodingInterviewExamples.pdb
+c:\users\jeremy\source\repos\CodingInterviewExamples\CodingInterviewExamples\obj\Debug\CodingInterviewExamples.csprojAssemblyReference.cache
+c:\users\jeremy\source\repos\CodingInterviewExamples\CodingInterviewExamples\obj\Debug\CodingInterviewExamples.csproj.CoreCompileInputs.cache
+c:\users\jeremy\source\repos\CodingInterviewExamples\CodingInterviewExamples\obj\Debug\CodingInterviewExamples.exe
+c:\users\jeremy\source\repos\CodingInterviewExamples\CodingInterviewExamples\obj\Debug\CodingInterviewExamples.pdb
