@@ -12,7 +12,9 @@ namespace CodingInterviewExamples
         private static List<ICodingQuestion> Questions { get; set; }
         static void Main(string[] args)
         {
-            Question3 q = new Question3();
+            Question3 q = new Question3(
+                new int[] { 4, 2, 4, 4 },
+                new int[] { 1, 4, 5, 2 });
             q.Run();
             //Questions = new List<ICodingQuestion>
             //{

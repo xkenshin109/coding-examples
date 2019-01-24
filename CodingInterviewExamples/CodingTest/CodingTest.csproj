@@ -50,7 +50,8 @@
   <ItemGroup>
     <Compile Include="Question_Tests\Question1_Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Question_Tests\UnitTest1.cs" />
+    <Compile Include="Question_Tests\Question3_Tests.cs" />
+    <Compile Include="Question_Tests\Question2_Tests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

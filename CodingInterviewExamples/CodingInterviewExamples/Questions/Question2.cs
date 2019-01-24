@@ -12,13 +12,18 @@ namespace CodingInterviewExamples.Questions
     //on are like the nodes and the players are like the lag and lead pointers.  If you move the 
     //players at constant varying speeds (one player moves up one square and another player moves up
     //two squares) they will eventually land on the same square proving they are traveling in a circle.
-    public class Question2: ICodingQuestion
+    public class Question2 : ICodingQuestion
     {
-
-        public Question2()
+        private LinkedListStack list;
+        public Question2(string[] test)
         {
-
+            list = new LinkedListStack();
+            foreach(var item in test)
+            {
+                list.Push(item);
+            }
         }
+        public bool DetectCycle => list.DetectCycle();
         ////Call in Program.cs to test
         //LinkedListStack list = new LinkedListStack();
         //list.Push("pushed first");
@@ -28,10 +33,7 @@ namespace CodingInterviewExamples.Questions
         //list.CreateCycle();
         //Console.WriteLine(list.DetectCycle());
         public void Run() {
-            LinkedListStack list = new LinkedListStack();
-            list.Push("pushed first");
-            list.Push("pushed second");
-            list.Push("pushed third");
+
             Console.WriteLine(list.DetectCycle());
             list.CreateCycle();
             Console.WriteLine(list.DetectCycle());
@@ -39,7 +41,7 @@ namespace CodingInterviewExamples.Questions
         }
     }
 
-    partial class LinkedListStack
+    public partial class LinkedListStack
     {
        // private List<LinkListStackNode> _list = new List<LinkListStackNode>();
         private LinkListStackNode Current { get; set; }
@@ -110,7 +112,7 @@ namespace CodingInterviewExamples.Questions
         }
     }
 
-    partial class LinkListStackNode
+    public partial class LinkListStackNode
     {
         private string _value;
         public LinkListStackNode Next { get; set; }

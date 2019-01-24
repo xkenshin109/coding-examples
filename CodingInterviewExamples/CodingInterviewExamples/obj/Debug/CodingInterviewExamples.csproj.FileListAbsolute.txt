@@ -5,3 +5,10 @@ c:\users\jeremy\source\repos\CodingInterviewExamples\CodingInterviewExamples\obj
 c:\users\jeremy\source\repos\CodingInterviewExamples\CodingInterviewExamples\obj\Debug\CodingInterviewExamples.csproj.CoreCompileInputs.cache
 c:\users\jeremy\source\repos\CodingInterviewExamples\CodingInterviewExamples\obj\Debug\CodingInterviewExamples.exe
 c:\users\jeremy\source\repos\CodingInterviewExamples\CodingInterviewExamples\obj\Debug\CodingInterviewExamples.pdb
+C:\Git\coding-examples\CodingInterviewExamples\CodingInterviewExamples\obj\Debug\CodingInterviewExamples.csprojAssemblyReference.cache
+C:\Git\coding-examples\CodingInterviewExamples\CodingInterviewExamples\obj\Debug\CodingInterviewExamples.csproj.CoreCompileInputs.cache
+C:\Git\coding-examples\CodingInterviewExamples\CodingInterviewExamples\obj\Debug\CodingInterviewExamples.exe
+C:\Git\coding-examples\CodingInterviewExamples\CodingInterviewExamples\obj\Debug\CodingInterviewExamples.pdb
+C:\Git\coding-examples\CodingInterviewExamples\CodingInterviewExamples\bin\Debug\CodingInterviewExamples.exe.config
+C:\Git\coding-examples\CodingInterviewExamples\CodingInterviewExamples\bin\Debug\CodingInterviewExamples.exe
+C:\Git\coding-examples\CodingInterviewExamples\CodingInterviewExamples\bin\Debug\CodingInterviewExamples.pdb

@@ -5,7 +5,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using CodingInterviewExamples.Interface;
 using CodingInterviewExamples.Questions;
 
-namespace CodingTest.Question_Tests
+namespace CodingTest
 {
     /// <summary>
     /// Summary description for UnitTest1
@@ -26,9 +26,17 @@ namespace CodingTest.Question_Tests
         }
 
         [TestMethod]
-        public void TestMethod1()
+        public void CreateCycle()
         {
-            ICodingQuestion _q = new Question2();
+            Question2 q = new Question2(new string[] 
+            {
+                "pushed first",
+                "pushed second",
+                "pushed third",
+            });
+            Assert.AreEqual(q.DetectCycle, false);
+            q.Run();
+            Assert.AreEqual(q.DetectCycle, true);
         }
     }
 }

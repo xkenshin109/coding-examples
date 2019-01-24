@@ -9,28 +9,45 @@ namespace CodingInterviewExamples.Questions
 {
     public class Question3 : ICodingQuestion
     {
+        private List<int?> _result { get; set; }
+        public string Result => string.Join(",",_result);
+        private LinkedList _list1, _list2;
+        public Question3(int[] list1, int[] list2)
+        {
+            _result = new List<int?>();
+            _list1 = new LinkedList();
+            _list2 = new LinkedList();
+            foreach(var item in list1)
+            {
+                _list1.Push(item);
+            }
+            foreach(var item in list2)
+            {
+                _list2.Push(item);
+            }
+        }
         //we would be adding node from second list to first list
         //If second node data id more than first one then exchange it
         public void Run()
         {
-            LinkedList l1 = new LinkedList();
-            l1.Push(2);
-            l1.Push(4);
-            l1.Push(3);
-            l1.Push(2);
-            l1.Push(1);
+            
+            _list1.Merge(_list2);
+            var cur = _list1.Head;
+            _result.Add(cur._value);
+            while(cur.Next != null)
+            {
+                cur = cur.Next;
 
-            LinkedList l2 = new LinkedList();
-            l2.Push(7);
-            l2.Push(2);
-            l2.Push(3);
-            l2.Push(5);
+                if(cur != null)
+                {
+                    _result.Add(cur._value);
+                }
+            }
 
-            l1.Merge(l2);
         }
     }
 
-    partial class LinkedList
+    public partial class LinkedList
     {
         public LinkedList()
         {
@@ -71,7 +88,7 @@ namespace CodingInterviewExamples.Questions
         }
     }
 
-    partial class LinkedListNode
+    public partial class LinkedListNode
     {
         public int? _value;
         public LinkedListNode Next { get; set; }
