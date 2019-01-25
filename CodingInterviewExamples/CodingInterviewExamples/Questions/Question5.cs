@@ -17,6 +17,12 @@ namespace CodingInterviewExamples.Questions
             First = first;
             Second = second;
         }
+        public void RunXor()
+        {
+            First = First ^ Second;
+            Second = Second ^ First;
+            First = First ^ Second;
+        }
         //Swap two integers without using a temp variable
         public void Run() {
             First = First + Second;

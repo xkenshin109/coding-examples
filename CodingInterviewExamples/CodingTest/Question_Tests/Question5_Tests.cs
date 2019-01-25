@@ -16,6 +16,9 @@ namespace CodingTest
             q.Run();
             Assert.AreEqual(q.First,200);
             Assert.AreEqual(q.Second, 100);
+            q.RunXor();
+            Assert.AreEqual(q.First, 100);
+            Assert.AreEqual(q.Second, 200);
         }
     }
 }

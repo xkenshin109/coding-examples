@@ -54,6 +54,8 @@
     <Compile Include="Question_Tests\Question2_Tests.cs" />
     <Compile Include="Question_Tests\Question4_Tests.cs" />
     <Compile Include="Question_Tests\Question5_Tests.cs" />
+    <Compile Include="Question_Tests\Question6_Tests.cs" />
+    <Compile Include="Question_Tests\Question7_Tests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
